@@ -2,6 +2,8 @@
 
 This project is a tool to generate interesting and elaborate prompts for image generation based on labels found in an image. The image prompts can be enhanced by adding art styles and artists for bonus points.
 
+Try it out! https://prompter.streamlit.app/
+
 # Features
 Upload images and get prompts
 Control the creativity of the prompt generation with adjustable parameters
