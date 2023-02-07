@@ -45,7 +45,7 @@ Run the main.py file to launch the application:
 
 ```
 
-Streamlit run prompter.py
+Streamlit run main.py
 
 ```
 
