@@ -44,7 +44,7 @@ def prompt_openai(
     """
     openai.api_key = os.getenv("OPENAI_API_KEY")
     response = openai.Completion.create(
-        model="text-curie-001",
+        model="text-davinci-003",
         prompt=f"{prompt_text} \n {labels}",
         temperature=temperature,
         max_tokens=256,
@@ -171,7 +171,7 @@ prompt_text_input = st.sidebar.text_area(
     "Prompt Text",
     max_chars=350,
     height=300,
-    value="Make ten interesting and elaborate prompts for image generation based on these labels in an image, start with 'an' and bonus points for adding art styles and artists. Be concise, and instead of being descriptive separate instructions with ','",
+    value="Make a list of ten interesting and elaborate prompts for image generation based on these labels in an image, start with 'an' and bonus points for adding art styles and artists. Separate instructions with ,",
 )
 
 name_uploaded_photo = upload_photo()
